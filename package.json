@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "proxy": "https://quiz-app-ngu.herokuapp.com/",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.9.1",
+    "firebase": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.2.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-firebaseui": "^4.1.0",
+    "react-scripts": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start && cd backend && npm run start",
+    "frontend": "react-scripts start",
+    "backend": "cd backend && npm start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
